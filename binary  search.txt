@@ -1,0 +1,31 @@
+Binary search
+
+1. start
+2.input search,size,a
+3.set begin=0,end=size-1,middle=(bigin+end)/2
+repeat step 4
+4.while(begin<=end)
+    if(a[middle]<search)
+       begin=middle+1
+    else
+if(a[middle]>search)
+       end=middle-1
+    else
+if(a[middle]==search)
+      print "no found in list"
+go to step 6
+  middle=(begin+end)/2
+go to step 4
+5.if(begin>end)
+6.print "no not found in list"
+stop
+
+
+   
+
+
+
+
+
+
+      
