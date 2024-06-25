@@ -1,0 +1,24 @@
+search= no to found in list
+size= size of list
+a= name of the list
+
+1. start
+2. input search,size,a      // { 23,56,67,78}
+3. set i=0
+ repeat step 4
+4. if(i<=size-1)
+      if(a[i]==search)
+         print"number found in list"
+      else
+         i=i+1     go to step 4
+5. else
+       print"number not found in list"
+6. stop
+   
+
+
+
+
+
+
+      
