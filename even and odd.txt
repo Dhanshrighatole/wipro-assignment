@@ -1,0 +1,18 @@
+that takes a no as input calculate the square if its even or the cube if its odd and then output the result
+
+#include<stdio.h>
+int main()
+{
+int n;
+printf("enter a no:");
+scanf("%d",n);
+if(n%2==0)
+{
+  printf("%d",n*n);
+}
+else
+{
+  printf("%d",n*n*n);
+}
+return 0;
+}
