@@ -1,0 +1,45 @@
+Developer 1
+#include<stdio.h>
+
+#include<math1.h>
+
+int main()
+
+{
+    
+int a=2, b=3;
+    
+   
+ int sum =sum(a,b);
+   
+ int pro =product(a,b);
+    
+printf("sum of no is %d",sum);
+    
+   
+ printf("product of no is %d",pro);
+    
+return o;
+}
+
+developer 2
+#ifndef MATH1.H
+
+#define MATH1.H
+
+int sum(int a int b)
+
+{
+    
+    
+return a+b;
+}
+
+int product(int a int b)
+
+{
+    
+    return a*b;
+}
+
+#endif
